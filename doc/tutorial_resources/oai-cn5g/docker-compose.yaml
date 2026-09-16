@@ -138,7 +138,7 @@ services:
                 ipv4_address: 192.168.70.133
     oai-upf:
         container_name: "oai-upf"
-        image: oaisoftwarealliance/oai-upf:develop
+        image: oaisoftwarealliance/oai-upf:simple-switch-perf-mq-neoversev2
         cpuset: "42-43"
         expose:
             - 2152/udp
