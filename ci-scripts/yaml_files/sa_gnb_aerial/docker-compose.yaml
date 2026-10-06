@@ -25,7 +25,7 @@ services:
       - ../../../cmake_targets/share:/opt/cuBB/share
     userns_mode: host
     ipc: "shareable"
-    image: ${REGISTRY-nvcr.io/nvidia/aerial/}${L1_IMG:-aerial-cuda-accelerated-ran}:${TAG:-26-1-cubb}
+    image: ${REGISTRY-nvcr.io/nvidia/aerial/}${L1_IMG:-aerial-cuda-accelerated-ran}:${TAG:-26-2-cubb}
     environment:
       - cuBB_SDK=/opt/nvidia/cuBB
       - AERIAL_LOG_PATH=/var/log/aerial
